@@ -43,7 +43,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-medium text-navy sm:text-[35px] sm:leading-[50px]">
+        <h2 className="text-3xl font-extrabold text-navy sm:text-4xl">
           Trusted by Thousands of Happy Customer
         </h2>
         <p className="mt-5 text-base leading-[30px] text-muted">
