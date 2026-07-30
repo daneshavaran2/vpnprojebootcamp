@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import IllustrationFeatures from "./IllustrationFeatures";
+import Illustration2 from "./Illustration2";
 
 const FEATURES = [
   "Powerfull online protection.",
@@ -14,7 +14,13 @@ export default function Features() {
       id="features"
       className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 lg:grid-cols-2 lg:gap-8 lg:px-8 lg:py-24"
     >
-      <IllustrationFeatures />
+      <div className="flex justify-center overflow-visible lg:justify-start">
+        <div className="h-[214px] w-[250px] sm:h-[300px] sm:w-[350px] lg:h-[420px] lg:w-[490px]">
+          <div className="origin-top-left scale-[0.51] sm:scale-[0.714] lg:scale-100">
+            <Illustration2 />
+          </div>
+        </div>
+      </div>
 
       <div className="max-w-xl">
         <h2 className="text-3xl font-extrabold text-navy sm:text-4xl">
