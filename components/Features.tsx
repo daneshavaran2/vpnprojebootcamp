@@ -36,7 +36,7 @@ export default function Features() {
               <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-mint">
                 <Check className="h-4 w-4 text-white" strokeWidth={3} />
               </span>
-              <span className="text-gray-600">{feature}</span>
+              <span className="text-muted">{feature}</span>
             </li>
           ))}
         </ul>

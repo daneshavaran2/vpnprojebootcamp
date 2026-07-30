@@ -75,7 +75,7 @@ export default function Pricing() {
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-center gap-3">
                     <Check className="h-5 w-5 shrink-0 text-mint" strokeWidth={2.5} />
-                    <span className="text-gray-600">{feature}</span>
+                    <span className="text-muted">{feature}</span>
                   </li>
                 ))}
               </ul>
@@ -83,7 +83,7 @@ export default function Pricing() {
               <p className="mt-10 text-2xl font-extrabold text-navy">
                 {plan.price}{" "}
                 {plan.priceSuffix && (
-                  <span className="text-base font-medium text-gray-400">
+                  <span className="text-base font-medium text-muted">
                     {plan.priceSuffix}
                   </span>
                 )}
