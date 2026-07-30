@@ -61,10 +61,10 @@ export default function Pricing() {
           {PLANS.map((plan) => (
             <div
               key={plan.name}
-              className={`flex flex-col rounded-2xl border bg-white p-10 text-center ${
+              className={`flex flex-col rounded-[10px] border-2 bg-white p-10 text-center ${
                 plan.highlighted
-                  ? "border-2 border-brand shadow-xl shadow-brand/10"
-                  : "border-gray-200"
+                  ? "border-brand shadow-xl shadow-brand/10"
+                  : "border-[#DDD]"
               }`}
             >
               <GiftBoxIcon />
