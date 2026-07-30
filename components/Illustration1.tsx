@@ -634,15 +634,23 @@ export default function Illustration1() {
         <div className="opacity-50 bg-[#FFF] w-[61px] h-[58px] absolute left-[21px] top-2"></div>
       </div>
       <div className="w-[70px] h-[55px] absolute left-[69px] top-[134px]">
-        <div className="w-[70px] h-[55px] absolute left-0 top-0">
+        <div className="w-[70px] h-[55px] absolute left-0 top-0 overflow-hidden">
           <div className="rounded-[4.7px] border-[1.9px] border-[#E2E2E2] opacity-50 w-[70px] h-[55px] absolute left-0 top-0"></div>
           <div className="w-8 h-8 absolute left-[19px] top-[11px]">
-            <img
-              src="/Image26.png"
-              className="w-8 h-8 absolute left-0 top-0 max-w-none"
-              alt="image 26"
+            <div
+              aria-hidden
+              className="bg-[#FF7979] w-11 h-[55px] absolute -left-2 -top-[13px]"
+              style={{
+                WebkitMaskImage: "url(/Image26.png)",
+                maskImage: "url(/Image26.png)",
+                WebkitMaskSize: "contain",
+                maskSize: "contain",
+                WebkitMaskRepeat: "no-repeat",
+                maskRepeat: "no-repeat",
+                WebkitMaskPosition: "center",
+                maskPosition: "center",
+              }}
             />
-            <div className="bg-[#FF7979] w-11 h-[55px] absolute -left-2 -top-[13px]"></div>
           </div>
         </div>
         <div className="opacity-50 bg-[#FFF] w-[43px] h-[45px] absolute left-4 top-[5px]"></div>
