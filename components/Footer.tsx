@@ -43,7 +43,7 @@ const SOCIALS = [FacebookIcon, TwitterIcon, InstagramIcon];
 
 export default function Footer() {
   return (
-    <footer className="bg-[#FAFAFA] px-6 pt-16 pb-10 lg:px-8">
+    <footer className="bg-[#F8F8F8] px-6 pt-16 pb-10 lg:px-8">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <a href="#" className="flex items-center gap-2">

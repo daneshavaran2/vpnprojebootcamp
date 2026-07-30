@@ -1,6 +1,6 @@
 export default function Subscribe() {
   return (
-    <section className="bg-[#FAFAFA] px-6 pb-24 lg:px-8">
+    <section className="bg-[#F8F8F8] px-6 pb-24 lg:px-8">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 rounded-3xl bg-white p-10 shadow-[0_20px_60px_-15px_rgba(15,23,42,0.1)] sm:flex-row sm:p-14">
         <div className="text-center sm:text-left">
           <h2 className="text-2xl font-extrabold text-navy sm:text-3xl">
