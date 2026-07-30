@@ -1,6 +1,6 @@
 export default function Illustration1() {
   return (
-    <div className="min-w-screen min-h-screen absolute left-[746px] top-[179px]">
+    <div className="relative w-[620px] h-[400px]">
       <svg
         width="240"
         height="185"
