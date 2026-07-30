@@ -51,7 +51,7 @@ export default function Pricing() {
           <h2 className="text-3xl font-extrabold text-navy sm:text-4xl">
             Choose Your Plan
           </h2>
-          <p className="mt-5 text-lg leading-relaxed text-gray-500">
+          <p className="mt-5 text-lg leading-relaxed text-muted">
             Let&apos;s choose the package that is best for you and explore it
             happily and cheerfully.
           </p>

@@ -6,7 +6,7 @@ export default function Subscribe() {
           <h2 className="text-2xl font-extrabold text-navy sm:text-3xl">
             Subscribe Now for Get Special Features!
           </h2>
-          <p className="mt-3 text-gray-500">
+          <p className="mt-3 text-muted">
             Let&apos;s subscribe with us and find the fun.
           </p>
         </div>

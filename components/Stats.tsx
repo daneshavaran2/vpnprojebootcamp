@@ -20,7 +20,7 @@ export default function Stats() {
             </span>
             <div>
               <p className="text-2xl font-extrabold text-navy">{value}</p>
-              <p className="text-gray-500">{label}</p>
+              <p className="text-muted">{label}</p>
             </div>
           </div>
         ))}

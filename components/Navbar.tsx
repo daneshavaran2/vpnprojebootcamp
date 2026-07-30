@@ -35,7 +35,7 @@ export default function Navbar() {
             <li key={link}>
               <a
                 href={`#${link.toLowerCase()}`}
-                className="text-[15px] text-gray-500 transition-colors hover:text-navy"
+                className="text-[15px] text-muted transition-colors hover:text-navy"
               >
                 {link}
               </a>
@@ -74,7 +74,7 @@ export default function Navbar() {
                 <a
                   href={`#${link.toLowerCase()}`}
                   onClick={() => setOpen(false)}
-                  className="text-[15px] text-gray-500 hover:text-navy"
+                  className="text-[15px] text-muted hover:text-navy"
                 >
                   {link}
                 </a>

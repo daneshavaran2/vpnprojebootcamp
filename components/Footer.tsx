@@ -57,7 +57,7 @@ export default function Footer() {
               Lasles<span className="font-extrabold">VPN</span>
             </span>
           </a>
-          <p className="mt-4 max-w-xs text-gray-500">
+          <p className="mt-4 max-w-xs text-muted">
             <span className="font-semibold text-navy">LaslesVPN</span> is a
             private virtual network that has unique features and has high
             security.
@@ -84,7 +84,7 @@ export default function Footer() {
                 <li key={link}>
                   <a
                     href="#"
-                    className="text-gray-500 transition-colors hover:text-brand"
+                    className="text-muted transition-colors hover:text-brand"
                   >
                     {link}
                   </a>

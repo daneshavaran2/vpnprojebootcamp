@@ -8,7 +8,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-baloo);
+  --font-sans: var(--font-rubik);
 
   --color-navy: #0b132a;
   --color-brand: #f53838;
@@ -16,6 +16,7 @@
   --color-brand-soft: #ffecec;
   --color-purple: #30235b;
   --color-mint: #3cb07b;
+  --color-muted: #4f5665;
 }
 
 body {
