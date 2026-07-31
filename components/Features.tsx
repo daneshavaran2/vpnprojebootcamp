@@ -26,7 +26,7 @@ export default function Features() {
         <h2 className="text-3xl font-extrabold text-navy sm:text-4xl">
           We Provide Many Features You Can Use
         </h2>
-        <p className="mt-6 text-lg leading-relaxed text-muted">
+        <p className="mt-6 text-base leading-[30px] text-muted">
           You can explore the features that we provide with fun and have
           their own functions each feature.
         </p>

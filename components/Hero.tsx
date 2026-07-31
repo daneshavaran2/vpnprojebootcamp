@@ -7,7 +7,7 @@ export default function Hero() {
         <h1 className="text-4xl font-extrabold leading-tight text-navy sm:text-5xl">
           Want anything to be easy with <span>LaslesVPN.</span>
         </h1>
-        <p className="mt-6 text-lg leading-relaxed text-muted">
+        <p className="mt-6 text-base leading-[30px] text-muted">
           Provide a network for all your needs with ease and fun using
           LaslesVPN discover interesting features from us.
         </p>
