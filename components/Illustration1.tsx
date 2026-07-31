@@ -149,32 +149,17 @@ export default function Illustration1() {
         />
       </svg>
       <svg
-        width="39"
-        height="47"
-        viewBox="0 0 39 47"
+        width="58"
+        height="31"
+        viewBox="0 0 58 31"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-[39px] h-[47px] absolute left-[180px] top-[111px] "
+        className="w-[58px] h-[31px] absolute left-[230px] top-[127px] "
       >
-        <rect
-          x="1.75"
-          y="15"
-          width="16.5"
-          height="20"
-          rx="6"
-          stroke="#111111"
-          strokeWidth="3.5"
+        <path
+          d="M0 15.5C0 7.49 5.5 2 14 2C20.5 2 25 6 25.5 13H32.5C33 6 37.5 0 44 0C52.5 0 58 6.5 58 14.5C58 22.51 52.5 28 44 28C37.5 28 32.5 23 32 16.5H26C25.5 23 20.5 27 14 27C5.5 27 0 23.51 0 15.5Z"
+          fill="#111111"
         />
-        <rect
-          x="20.75"
-          y="12"
-          width="16.5"
-          height="20"
-          rx="6"
-          stroke="#111111"
-          strokeWidth="3.5"
-        />
-        <path d="M18.25 21.5H20.75" stroke="#111111" strokeWidth="3.5" />
       </svg>
       <svg
         width="21"
