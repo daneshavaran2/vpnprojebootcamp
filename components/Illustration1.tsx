@@ -148,9 +148,34 @@ export default function Illustration1() {
           fill="white"
         />
       </svg>
-      <div className="w-[39px] h-[47px] absolute left-[180px] top-[111px]"></div>
-      <div className="w-[39px] h-[47px] absolute left-[180px] top-[111px]"></div>
-      <div className="w-[18px] h-[23px] absolute left-[190px] top-[124px]"></div>
+      <svg
+        width="39"
+        height="47"
+        viewBox="0 0 39 47"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-[39px] h-[47px] absolute left-[180px] top-[111px] "
+      >
+        <rect
+          x="1.75"
+          y="15"
+          width="16.5"
+          height="20"
+          rx="6"
+          stroke="#111111"
+          strokeWidth="3.5"
+        />
+        <rect
+          x="20.75"
+          y="12"
+          width="16.5"
+          height="20"
+          rx="6"
+          stroke="#111111"
+          strokeWidth="3.5"
+        />
+        <path d="M18.25 21.5H20.75" stroke="#111111" strokeWidth="3.5" />
+      </svg>
       <svg
         width="21"
         height="20"
