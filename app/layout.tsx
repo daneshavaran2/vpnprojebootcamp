@@ -20,7 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${rubik.variable} h-full antialiased`}>
+    <html
+      lang="en"
+      className={`${rubik.variable} h-full antialiased`}
+      suppressHydrationWarning
+    >
       <body className="min-h-full flex flex-col bg-white text-navy">{children}</body>
     </html>
   );
