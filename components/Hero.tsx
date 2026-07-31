@@ -19,7 +19,7 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="flex justify-center overflow-visible lg:justify-end">
+      <div className="flex justify-center overflow-visible lg:justify-end lg:translate-x-[140px]">
         <div className="h-[194px] w-[300px] sm:h-[271px] sm:w-[420px] lg:h-[400px] lg:w-[620px]">
           <div className="origin-top-left scale-[0.484] sm:scale-[0.677] lg:scale-100">
             <Illustration1 />
