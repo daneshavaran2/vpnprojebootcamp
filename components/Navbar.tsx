@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 const NAV_LINKS = ["About", "Features", "Pricing", "Testimonials", "Help"];
 
@@ -11,24 +12,7 @@ export default function Navbar() {
   return (
     <header className="w-full">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-8 lg:px-8">
-        <a href="#" className="flex items-center gap-2">
-          <svg
-            width="28"
-            height="28"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12 2C12 2 5 9.5 5 14.5C5 18.09 8.13 21 12 21C15.87 21 19 18.09 19 14.5C19 9.5 12 2 12 2Z"
-              fill="#F53838"
-            />
-            <circle cx="12" cy="15.5" r="3" fill="white" fillOpacity="0.35" />
-          </svg>
-          <span className="text-xl font-bold text-navy">
-            Lasles<span className="font-extrabold">VPN</span>
-          </span>
-        </a>
+        <Logo />
 
         <ul className="hidden items-center gap-10 md:flex">
           {NAV_LINKS.map((link) => (

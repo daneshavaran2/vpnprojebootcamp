@@ -1,3 +1,5 @@
+import Logo from "./Logo";
+
 function FacebookIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -46,17 +48,7 @@ export default function Footer() {
     <footer className="bg-[#F8F8F8] px-6 pt-16 pb-10 lg:px-8">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <a href="#" className="flex items-center gap-2">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <path
-                d="M12 2C12 2 5 9.5 5 14.5C5 18.09 8.13 21 12 21C15.87 21 19 18.09 19 14.5C19 9.5 12 2 12 2Z"
-                fill="#F53838"
-              />
-            </svg>
-            <span className="text-lg font-bold text-navy">
-              Lasles<span className="font-extrabold">VPN</span>
-            </span>
-          </a>
+          <Logo />
           <p className="mt-4 max-w-xs text-muted">
             <span className="font-semibold text-navy">LaslesVPN</span> is a
             private virtual network that has unique features and has high
