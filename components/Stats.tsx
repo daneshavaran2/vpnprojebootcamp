@@ -9,7 +9,7 @@ const STATS = [
 export default function Stats() {
   return (
     <section className="mx-auto max-w-7xl px-6 pb-20 lg:px-8">
-      <div className="grid grid-cols-1 divide-y divide-gray-100 rounded-3xl bg-white p-10 shadow-[0_20px_60px_-15px_rgba(15,23,42,0.12)] sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+      <div className="grid grid-cols-1 divide-y divide-gray-100 rounded-[10px] bg-white p-10 shadow-[0_20px_60px_-15px_rgba(15,23,42,0.12)] sm:grid-cols-3 sm:divide-x sm:divide-y-0">
         {STATS.map(({ icon: Icon, value, label }) => (
           <div
             key={label}
